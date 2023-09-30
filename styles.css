@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: "Nunito",sans-serif;
+}
+body{
+    background-color:#F0F0F0 ;
+    width: 100%;
+    min-height: 100vh;
+    color: #1f1f1f;
+}
+h3{
+    line-height: 2;
+    line-spacing:2;
+    font-size: 18px;
+    color: #4F709C;
+}
+.resume{
+    background-color: white;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.header-name{
+    letter-spacing: 2;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+.header-job{
+    letter-spacing: 1;
+    font-size: 1.2rem;
+    padding-bottom: 0.5 rem;
+}
+.header-contact{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 16px;
+    padding: 0.5rem 0;
+}
+.divider{
+    width: 80%;
+    border: 1px solid black;
+}
+.body-resume{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    width: 100%;
+}
+.left-resume{
+    text-align: right;
+    border-right: 2px solid black;
+    padding: 0 1rem;
+}
+.card-resume{
+    padding:0.5rem 1rem;
+}
+.detail{
+    padding: 0.5rem 0;
+}
+.subdetail{
+    padding: 0.5rem 0;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap: 1rem;
+    align-items: center;
+}
+.skills-bar{
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.skills-fill{
+    position:absolute;
+    border-radius: 10px;
+    background-color: #4F709C;
+    height: 10px;
+    left: 0;
+    top: 0;
+}
+.html{
+    width: 80%;
+}
+.css{
+    width: 70%;
+}
+.js{
+    width: 50%;
+}
+.bootstrap{
+    width: 60%;
+}
+.java{
+    width: 80%;
+}
+.c{
+    width: 65%;
+}
+.sql{
+    width: 90%;
+}
+.right-resume{
+    padding:0 1rem;
+    text-align: left;
+}
